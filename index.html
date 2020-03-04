@@ -2,42 +2,20 @@
 <html lang="en-us">
   <head>
     <script src="https://vk.com/js/api/xd_connection.js?2";  type="text/javascript"></script>
-        <!-- VK JAVASCRIPT SDK -->
+    <!-- VK JAVASCRIPT SDK START-->
     <script type="text/javascript">
       console.log('vk before init!');
       console.log(VK);
       VK.init(function() {
-         // API initialization succeeded
-         // Your code here
-        // alert('vk inited!');
         console.log('vk during init!');
       });
     </script>
     <script type="text/javascript">
       console.log('vk after init!');
       console.log(VK);
+      // VK.callMethod("resizeWindow", 300, 300);
     </script>
-
-    <script type="text/javascript">
-      VK.callMethod("resizeWindow", 300, 300);
-    </script>
-
-    <!-- <script type="text/javascript">
-      console.log('vk inited 1!');
-      console.log(VK);
-      VK.init(function() {
-         // API initialization succeeded
-        console.log('vk inited 2-------------!');
-         // Your code here
-      }, function() {
-         // API initialization failed
-         // Can reload page here
-        console.log('vk failed 2---------------!');
-    }, '5.103');
-    </script> -->
-
-
-
+    <!-- VK JAVASCRIPT SDK END-->
 
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
